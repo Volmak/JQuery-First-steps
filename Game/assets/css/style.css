@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: black;
+	font-size: 1.5vw;
+}
+
+body > * {
+	position: absolute;	
+}
+
+#player {
+	height: 20vh;
+	width: 5vw;
+	background-color: white;
+	bottom: 0vh;
+}
+
+#player img {
+	width:150%;
+	transform: rotate(300deg);
+	margin-left: -4vw;
+	margin-top: 18vh;
+	display: none;
+}
+
+#player img.backwards {
+	margin-left: 1vw;
+	transform: rotate(60deg);
+}
+
+.dodge {
+	height: 2vh;
+	width: 2vw;
+	background-color: red;
+	left: -3vw;
+}
+
+.low {
+	bottom: 3vh;
+}
+.middle {
+	bottom: 8vh;
+}
+.high {
+	bottom: 13vh;
+}
+
+#display {
+	top: 10vh;
+	left: 40vw;
+	width: 20vw;
+	height: 10vh;
+	border: 1px solid red;
+	text-align: center;
+}
+.display{
+	display: inline-block;
+	width: 8vw;
+	height: 8vh;
+	border: 2px solid white;
+	border-radius: 30%;
+	text-align: center;
+	color: white;
+}
