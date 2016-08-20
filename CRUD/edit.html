@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/jq/edit.js"></script>
+<title>Groceries</title>
+</head>
+<body>
+<div id="container">
+	<form method="post" action="javascript:void(0);">
+		<p id="error"></p>
+	
+		<div class='hidden'>
+			<label for="key">Key: </label>
+			<input name="key">
+		</div>
+		
+		<div>
+			<label for="product">Product name: </label>
+			<input name="product">
+		</div>
+		
+		<div>
+			<label for="quantity">Quantity: </label>
+			<input name="quantity">
+		</div>
+		
+		<div>
+			<label for="price">Price: </label>
+			<input name="price">
+		</div>
+		
+		<button type="submit">Add!</button>
+	</form>
+</div>
+</body>
+</html>

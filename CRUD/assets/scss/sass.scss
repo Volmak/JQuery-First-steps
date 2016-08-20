@@ -1,0 +1,71 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+
+#container {
+	margin: 1vh auto;
+	text-align: center;
+	width: 640px;
+}
+
+.hidden {
+	display: none;
+}
+
+#error {
+	color: red;
+}
+
+form {
+		width:50%;
+		text-align: center;
+		
+		div{
+			display:inline-block;
+			width:100%;
+		}	
+		input {
+			float: right;
+		}
+		label {
+			float: left;
+		}
+		button {
+			margin: 1% 5%;
+			font-size: 1em;
+		}
+}
+
+#s2 {
+
+	h1 {
+		width: 100%;
+		padding: 0.5em;
+		box-sizing: border-box;
+		
+		a {
+			float: right;
+			
+			button {
+				height: 2em;
+				width: 100px;
+				cursor: pointer;
+			}
+		}
+	}
+	
+	table {
+		width: 100%;
+		text-align: center;
+		border-collapse: collapse;
+		
+		th, td {
+			border: 1px solid black;
+		}
+		i{
+			cursor: pointer;
+		}
+	}
+}
